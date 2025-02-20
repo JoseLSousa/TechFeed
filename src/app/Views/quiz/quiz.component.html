@@ -31,7 +31,7 @@
             <div *ngIf="answerBody"
                 class="d-flex flex-column align-items-center justify-content-around text-center p-3 h-100">
                 <h3>{{answerBody.title}}</h3>
-                <img [src]="answerBody.imageUrl ? answerBody.imageUrl : ''" width="300">
+                <img [src]="answerBody.imageUrl ? answerBody.imageUrl : ''" width="300" class="img-fluid">
                 <p>{{answerBody.description}}</p>
                 <a class="btn btn-primary w-25" href="">Voltar</a>
             </div>
