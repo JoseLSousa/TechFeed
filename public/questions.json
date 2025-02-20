@@ -1,0 +1,138 @@
+{
+    "title": "📊 Se sua vida fosse um software, qual seria? 🚀",
+    "subtitle":"Descubra se você é um sistema operacional confiável, um antivírus protetor, um jogo cheio de aventuras ou um bug inesperado!",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Como você lida com problemas no dia a dia?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Analiso a situação e busco a melhor solução lógica. 🧠"
+                },
+                {
+                    "id": 2,
+                    "text": "Tento corrigir tudo antes mesmo que se torne um problema. 🔍"
+                },
+                {
+                    "id": 3,
+                    "text": "Dou um jeito, mas às vezes preciso reiniciar. 🔄"
+                },
+                {
+                    "id": 4,
+                    "text": "Ignoro e torço para desaparecer sozinho. 😅"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "Qual é seu ambiente ideal de trabalho?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Um espaço organizado e eficiente, tudo no seu devido lugar. 📂"
+                },
+                {
+                    "id": 2,
+                    "text": "Seguro e protegido contra qualquer ameaça externa. 🛡️"
+                },
+                {
+                    "id": 3,
+                    "text": "Criativo, cheio de novas ideias e possibilidades. 🎨"
+                },
+                {
+                    "id": 4,
+                    "text": "Caótico, mas divertido, sempre acontece algo inesperado. 🤪"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Quando surge um desafio inesperado, o que você faz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Analiso friamente e resolvo da forma mais eficiente. 🔬"
+                },
+                {
+                    "id": 2,
+                    "text": "Faço um backup mental e sigo em frente com precaução. 💾"
+                },
+                {
+                    "id": 3,
+                    "text": "Dou um jeito improvisado, mas no final funciona. 🚀"
+                },
+                {
+                    "id": 4,
+                    "text": "Tento, falho, tento de novo, falho de novo… 😵"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "Como você lida com mudanças na sua vida?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Planejo tudo com antecedência para evitar surpresas. 📑"
+                },
+                {
+                    "id": 2,
+                    "text": "Faço uma verificação completa antes de seguir. 🧐"
+                },
+                {
+                    "id": 3,
+                    "text": "Me adapto rápido e aproveito as novidades. 😃"
+                },
+                {
+                    "id": 4,
+                    "text": "Meu sistema dá tela azul, e eu travo completamente. 💀"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "O que seus amigos dizem sobre você?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Confiável e sempre pronto para ajudar. 🤝"
+                },
+                {
+                    "id": 2,
+                    "text": "Protetor, sempre alerta aos perigos. 🚨"
+                },
+                {
+                    "id": 3,
+                    "text": "Criativo e cheio de ideias malucas. 🎭"
+                },
+                {
+                    "id": 4,
+                    "text": "Engraçado e imprevisível, nunca se sabe o que esperar. 😂"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Se você fosse uma tecnologia, qual seria?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Um supercomputador de última geração. 🖥️"
+                },
+                {
+                    "id": 2,
+                    "text": "Um firewall de segurança máxima. 🔒"
+                },
+                {
+                    "id": 3,
+                    "text": "Um aplicativo inovador e divertido. 📱"
+                },
+                {
+                    "id": 4,
+                    "text": "Um vírus… mas do bem! 😂"
+                }
+            ]
+        }
+    ]
+}
