@@ -23,4 +23,4 @@ Este projeto é um quiz interativo inspirado em tecnologia, com o objetivo de di
 - **Experiência personalizada:** O quiz utiliza lógica de pontuação para determinar o resultado com base nas respostas.
 
 ## 🔧 Como testar o projeto
-- o projeto está disponível através do [link](https://)
+- O deploy do projeto foi feito através do vercel e está disponível no link: [clique aqui](https://tech-feed.vercel.app)
