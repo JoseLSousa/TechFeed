@@ -1,0 +1,76 @@
+.quiz {
+    height: 500px;
+    width: 50vw;
+    z-index: 1;
+
+    /* Corrige a estilização de todas as divs dentro de .quiz */
+    div {
+        border-radius: 10px;
+    }
+
+    /* Primeira camada (amarelo) */
+    >.child1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: rotate(-2deg);
+        background-color: #FFC72C;
+        z-index: 0;
+        /* Garantindo que fique atrás */
+    }
+
+    /* Segunda camada (branco) */
+    >.child2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: rotate(2deg);
+        background-color: rgb(255, 0, 0);
+        z-index: 1;
+    }
+
+    >.child3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgb(228, 228, 228);
+        transform: rotate();
+        background-color: white;
+        z-index: 1;
+    }
+}
+
+.start-btn {
+    animation: jump 0.8s ease infinite alternate both;
+    &:hover{
+        animation: none;
+    }
+}
+
+@keyframes jump {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    75%,
+    100% {}
+
+}

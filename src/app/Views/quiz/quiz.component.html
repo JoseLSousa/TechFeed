@@ -1,1 +1,40 @@
-<p>quiz works!</p>
+<img src="TechFeed.svg" alt="" height="70" class="d-flex mx-auto">
+<div class="container d-flex justify-content-center">
+    <div class="quiz position-relative">
+        <div class="child1 position-absolute"></div>
+        <div class="child2 position-absolute">
+
+        </div>
+        <div class="child3 position-absolute">
+            <div class="d-flex flex-column justify-content-between align-items-center text-center p-3 h-100"
+                *ngIf="questionList && !started && !answerBody">
+                <div>
+                    <h1>{{questionList[0].title}}</h1>
+                    <p>{{questionList[0].subtitle}}</p>
+                </div>
+                <button class="btn btn-primary mb-5 w-25 start-btn" (click)="startQuiz()">Iniciar</button>
+            </div>
+            <div *ngIf="!questionList" class="d-flex flex-column align-items-center justify-content-center h-100">
+                <i class="bi bi-exclamation-triangle fs-1"></i>
+                <h1>Erro ao carregar perguntas</h1>
+            </div>
+            <div *ngIf="started && !answerBody"
+                class="d-flex flex-column align-items-center justify-content-around text-center p-3 h-100">
+                <h3>{{question.id}} - {{question.text}}</h3>
+                <div>
+                    <button class="btn btn-outline-primary w-75 mb-3" *ngFor="let option of question.options"
+                        (click)="selectOption(option)">
+                        {{option.text}}
+                    </button>
+                </div>
+            </div>
+            <div *ngIf="answerBody"
+                class="d-flex flex-column align-items-center justify-content-around text-center p-3 h-100">
+                <h3>{{answerBody.title}}</h3>
+                <img [src]="answerBody.imageUrl ? answerBody.imageUrl : ''" width="300">
+                <p>{{answerBody.description}}</p>
+                <a class="btn btn-primary w-25" href="">Voltar</a>
+            </div>
+        </div>
+    </div>
+</div>
