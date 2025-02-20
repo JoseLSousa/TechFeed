@@ -2,6 +2,10 @@
     height: 500px;
     width: 50vw;
     z-index: 1;
+    @media (max-width: 768px) {
+        width: 90vw;
+
+    }
 
     /* Corrige a estilização de todas as divs dentro de .quiz */
     div {
