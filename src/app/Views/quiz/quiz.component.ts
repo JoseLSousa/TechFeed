@@ -34,7 +34,6 @@ export class QuizComponent implements OnInit {
     if (this.question.id < this.questionList[0].questions.length) {
       this.playerOptions.push(option)
       this.question = this.questionList[0].questions[(this.index++)]
-      console.log(this.index);
 
     } else {
       this.selectAnswer(this.playerOptions)
